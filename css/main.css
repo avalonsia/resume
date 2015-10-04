@@ -1,0 +1,265 @@
+body{
+	margin:0;
+}
+a{
+	text-decoration: none;
+	color:#949494;
+}
+li{
+	list-style: none;	
+}
+h1{
+	margin:0px;
+}
+h2{
+	margin:0px;
+}
+h3{
+	margin:0px;
+}
+p{
+	margin:0px;
+}
+i{
+	color:#BBB;
+
+}
+.menubar{
+	background-color:#171616;
+	width:20%;
+	height:1000px;
+	position:fixed;
+}
+.headphoto{
+	float:left;
+	width:40%;
+}
+.nametitle{
+	color:white;
+}
+.phototitle{
+	float:left;
+	padding-left:20px;
+	font-size:20pt;
+}
+.resumename{
+	padding-top:120px;
+	padding-left:50px;
+}
+.navbar{
+	padding-top:50px;
+	float:right;
+}
+.navButton{
+	font-size:15pt;
+	height:50px;
+	width:120px;
+	text-align:right;
+	padding-right:30px;
+}
+.bg{
+	float:right;
+	width:80%;
+}
+
+.container{
+	width:80%;
+	float:right;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position:right top;
+	background-image: url(../images/head.jpg);
+	background-size:1100px;
+}
+#firstcontainer{
+	margin-top:-50px;
+	background-color:rgba(60,60,60,0.6);
+	height:750px;
+}
+#firstcontainer h1{
+	padding-top:380px;
+	padding-left:100px;
+	width:850px;
+	font-size:40pt;
+	color:#bbb;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+#secondcontainer{
+	background-color:white;
+}
+#secondcontainer h1{
+	margin:0px;
+	padding-top:130px;
+	padding-left:100px;
+	font-size:40pt;
+	color:#bbb;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+.titleline{
+	display: block;
+	width: 70px;
+	height: 4px;
+	margin-top: 16px;
+	margin-left: 3px;
+	background-color:#bbb;
+}
+#secondcontainer h2{
+	padding-top:20px;
+	padding-left:100px;
+	font-size:25pt;
+	color:#01C87B;
+	width:800px;
+}
+#secondcontainer p{
+	padding-top:10px;
+	padding-left:100px;
+	font-size:12pt;
+	color:#222222;
+	width:800px;
+	line-height: 25px;
+	padding-bottom:100px;
+}
+#thirdcontainer{
+	background-color:#01C87B;
+}
+#thirdcontainer h1{
+	margin:0px;
+	padding-top:130px;
+	padding-left:100px;
+	font-size:40pt;
+	color:#FFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+#thirdcontainer p{
+	padding-top:25px;
+	padding-left:100px;
+	font-size:12pt;
+	color:#FF0;
+	width:800px;
+	line-height: 25px;
+}
+.schoolicon{
+	margin-top:30px;
+	margin-left:350px;
+	width:100px;
+	margin-bottom:100px;
+	border-radius:50px;
+}
+.schoolicon2{
+	margin-top:30px;
+	margin-left:70px;
+	width:100px;
+	margin-bottom:100px;
+	border-radius:50px;
+	display:inline;
+}
+#fourthcontainer{
+	background-color:#196471;
+}
+#fourthcontainer h1{
+	margin:0px;
+	padding-top:130px;
+	padding-left:100px;
+	font-size:40pt;
+	color:#FFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+#fourthcontainer h3{
+	padding-top:60px;
+	padding-left:100px;
+	font-size:18pt;
+	color:#AFE0A1;
+	width:800px;
+	line-height: 25px;
+	padding-bottom:50px;
+}
+.skillline1{
+	display: block;
+	width:350px;
+	height: 4px;
+	margin-top: 16px;
+	margin-left: 3px;
+	background-color:#AFE0A1;
+	float:left;
+}
+.skillline2{
+	display: block;
+	width:560px;
+	height: 4px;
+	margin-top: 16px;
+	margin-left: 3px;
+	background-color:#AFE0A1;
+	float:left;
+}
+.skillline3{
+	display: block;
+	width:330px;
+	height: 4px;
+	margin-top: 16px;
+	margin-left: 3px;
+	background-color:#AFE0A1;
+	float:left;
+}
+.skillpercent{
+	float:left;
+	display: inline;
+	color:#AFE0A1;
+	margin-left:10px;
+	margin-top:8px;
+	font-size:15pt;
+}
+#fifthcontainer{
+	background-color:rgba(60,60,60,0.6);
+}
+#fifthcontainer h1{
+	margin:0px;
+	padding-top:130px;
+	padding-left:100px;
+	font-size:40pt;
+	color:#FFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+.contact{
+	width:166px;
+	float:left;
+	display: inline;
+	padding-left:150px;
+	padding-top:60px;
+	font-size:15pt;
+	text-align:center;
+}
+.contacticon{
+	width:160px;
+	height:160px;
+	line-height:200px;
+	font-size:15pt;
+	text-align:center;
+	border-radius:90px;
+	border-style:solid;
+	border-color:#FFF;
+	border-width:1px;
+}
+.clearfix{
+	height:480px;
+	display:block;
+}
+.contact h4{
+	color:#FFF;
+	margin-bottom:15px;
+}
+.contact p{
+	color:#FFF;
+	font-size:12pt;
+}
+.contacticon i{
+	color:#FFF;
+}
+.tagheight{
+	display:block;
+	height:20px;
+}
