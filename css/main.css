@@ -45,7 +45,6 @@ i{
 }
 .phototitle{
 	float:left;
-	
 	font-size:20pt;
 }
 .resumename{
@@ -62,6 +61,10 @@ i{
 	width:120px;
 	text-align:right;
 	padding-right:30px;
+}
+.navButton a:hover {
+	text-decoration: underline;
+	color:white;
 }
 .bg{
 	float:right;
@@ -156,16 +159,15 @@ i{
 }
 .schoolicon{
 	margin-top:30px;
-
 	width:100px;
-	margin-bottom:100px;
+	margin-bottom:120px;
 	border-radius:50px;
 }
 .schoolicon2{
 	margin-top:30px;
 	margin-left:70px;
 	width:100px;
-	margin-bottom:100px;
+	margin-bottom:120px;
 	border-radius:50px;
 	display:inline;
 }
@@ -250,13 +252,16 @@ i{
 .contacticon{
 	width:160px;
 	height:160px;
-	line-height:200px;
+	line-height:186px;
 	font-size:15pt;
 	text-align:center;
 	border-radius:90px;
 	border-style:solid;
 	border-color:#FFF;
 	border-width:1px;
+}
+.contacticon:hover{
+	background-color: rgba(10,180,110,0.7);
 }
 .clearfix{
 	height:480px;
